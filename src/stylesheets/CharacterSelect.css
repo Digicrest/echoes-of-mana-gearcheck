@@ -1,0 +1,55 @@
+.character-select-container {
+    display: flex;
+    gap: 1em;
+    height: 125px;
+}
+.character-select-container .character-search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-70);
+    border-radius: var(--border-radius);
+    backdrop-filter: var(--blur);
+}
+.character-select {
+    flex: 4;
+    display: flex;
+    gap: 1em;
+    overflow: auto;
+    font-size: .5em;
+    padding: 1em;
+    border-radius: var(--border-radius);
+    background-color: var(--white-70);
+    backdrop-filter: var(--blur);
+}
+.character-selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20ch;
+    transition: all .15s ease-in-out;
+    border-radius: var(--border-radius);
+    box-shadow: 2px 2px 4px #00000010;
+    background-color: var(--white);
+}
+.character-selection.active {
+    background-color: var(--black);
+    color: var(--white);
+}
+.character-selection:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+.character-name-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    padding: 1em;
+}
+.character-select .character-name {
+    opacity: .8;
+}
+.character-title {
+    font-size: .75em;
+}

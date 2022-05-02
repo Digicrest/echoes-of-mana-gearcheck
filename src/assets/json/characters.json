@@ -1,0 +1,331 @@
+[
+  {
+    "name": "Crimson Wizard",
+    "title": "Flaming Dark Magic",
+    "rarity": 5,
+    "element": "Fire",
+    "weapon": "Staff",
+    "game": "Trials of Mana",
+    "stats": {
+      "base": { "hp": 201, "mp": 216, "str": 88, "con": 66, "int": 115, "spr": 92, "lck": 46 },
+      "max": { "hp": 1622, "mp": 334, "str": 747, "con": 577, "int": 866, "spr": 693, "lck": 104 }
+    }
+  },
+  {
+    "name": "Riesz",
+    "title": "Pride of Amazon",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Polearm",
+    "game": "Trials of Mana",
+    "stats": {
+      "base": { "hp": 195, "mp": 160, "str": 120, "con": 88, "int": 100, "spr": 80, "lck": 43 },
+      "max": { "hp": 1595, "mp": 272, "str": 888, "con": 675, "int": 800, "spr": 640, "lck": 101 }
+    }
+  },
+  {
+    "name": "Angela",
+    "title": "Magic Power in Bloom",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Staff",
+    "game": "Trials of Mana",
+    "stats": {
+      "base": { "hp": 185, "mp": 192, "str": 90, "con": 56, "int": 125, "spr": 88, "lck": 43 },
+      "max": { "hp": 1550, "mp": 307, "str": 756, "con": 534, "int": 910, "spr": 675, "lck": 101 }
+    }
+  },
+  {
+    "name": "Sumo",
+    "title": "Overcoming Myriad Farewells",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Sword",
+    "game": "Adventures of Mana",
+    "stats": {
+      "base": {
+        "hp": 227,
+        "mp": 163,
+        "str": 103,
+        "con": 85,
+        "int": 93,
+        "spr": 79,
+        "lck": 40
+      },
+      "max": {
+        "hp": 1735,
+        "mp": 276,
+        "str": 813,
+        "con": 662,
+        "int": 770,
+        "spr": 634,
+        "lck": 98
+      }
+    }
+  },
+  {
+    "name": "Shiloh",
+    "title": "Encounter Sprung from a Seed",
+    "rarity": 4,
+    "element": "Dark",
+    "weapon": "Sword",
+    "game": "Legend of Mana",
+    "stats": {
+      "base": {
+        "hp": 226,
+        "mp": 152,
+        "str": 110,
+        "con": 76,
+        "int": 110,
+        "spr": 76,
+        "lck": 38
+      },
+      "max": {
+        "hp": 1730,
+        "mp": 263,
+        "str": 844,
+        "con": 622,
+        "int": 844,
+        "spr": 622,
+        "lck": 96
+      }
+    }
+  },
+  {
+    "name": "Duran",
+    "title": "Thrilling Blade Flash",
+    "rarity": 4,
+    "element": "Earth",
+    "weapon": "Sword",
+    "game": "Trials of Mana",
+    "stats": {
+      "base": {
+        "hp": 267,
+        "mp": 152,
+        "str": 125,
+        "con": 104,
+        "int": 85,
+        "spr": 64,
+        "lck": 27
+      },
+      "max": {
+        "hp": 1911,
+        "mp": 263,
+        "str": 910,
+        "con": 746,
+        "int": 734,
+        "spr": 570,
+        "lck": 84
+      }
+    }
+  },
+  {
+    "name": "Popoi",
+    "title": "Headed for the Home Village",
+    "rarity": 4,
+    "element": "Fire",
+    "weapon": "Boomerang",
+    "game": "Secret of Mana",
+    "stats": {
+      "base": {
+        "hp": 182,
+        "mp": 184,
+        "str": 94,
+        "con": 52,
+        "int": 113,
+        "spr": 56,
+        "lck": 50
+      },
+      "max": {
+        "hp": 1541,
+        "mp": 298,
+        "str": 774,
+        "con": 517,
+        "int": 857,
+        "spr": 535,
+        "lck": 108
+      }
+    }
+  },
+  {
+    "name": "Wanderer",
+    "title": "The Niccolo Vagabond",
+    "rarity": 3,
+    "element": "Earth",
+    "weapon": "Axe",
+    "game": "Children of Mana",
+    "stats": {
+      "base": { "hp": 236, "mp": 104, "str": 77, "con": 89, "int": 67, "spr": 65, "lck": 41 },
+      "max": { "hp": 1670, "mp": 192, "str": 610, "con": 652, "int": 564, "spr": 544, "lck": 93
+      }
+    }
+  },
+  {
+    "name": "Niccolo",
+    "title": "Smile for Mew!",
+    "rarity": 3,
+    "element": "Wind",
+    "weapon": "Glove",
+    "game": "Legend of Mana",
+    "stats": {
+      "base": { "hp": 208, "mp": 112, "str": 83, "con": 84, "int": 60, "spr": 58, "lck": 48 },
+      "max": { "hp": 1546, "mp": 201, "str": 636, "con": 630, "int": 534, "spr": 516, "lck": 100 }
+    }
+  },
+  {
+    "name": "Charlotte",
+    "title": "Fifteen in the Flush of Youth",
+    "rarity": 3,
+    "element": "Light",
+    "weapon": "Flail",
+    "game": "Trials of Mana",
+    "stats": {
+      "base": { "hp": 156, "mp": 135, "str": 70, "con": 60, "int": 90, "spr": 86, "lck": 41 },
+      "max": { "hp": 1315, "mp": 227, "str": 577, "con": 525, "int": 666, "spr": 639, "lck": 93 }
+    }
+  },
+  {
+    "name": "Ludgar",
+    "title": "Body of Practical Study",
+    "rarity": 3,
+    "element": "Dark",
+    "weapon": "Glove",
+    "game": "Trials of Mana",
+    "stats": {
+      "base": { "hp": 207, "mp": 105, "str": 93, "con": 84, "int": 65, "spr": 63, "lck": 40 },
+      "max": { "hp": 1539, "mp": 194, "str": 679, "con": 627, "int": 554, "spr": 535, "lck": 92 }
+    }
+  },
+  {
+    "name": "Ferrik",
+    "title": "Beyond the Great Calamity",
+    "rarity": 3,
+    "element": "Earth",
+    "weapon": "Sword",
+    "game": "Children of Mana",
+    "stats": {
+      "base": { "hp": 177, "mp": 127, "str": 81, "con": 84, "int": 71, "spr": 71, "lck": 38 },
+      "max": { "hp": 1408, "mp": 218, "str": 626, "con": 630, "int": 580, "spr": 570, "lck": 90 }
+    }
+  },
+  {
+    "name": "Randi",
+    "title": "Fate by Fluke",
+    "rarity": 3,
+    "element": "Light",
+    "weapon": "Sword",
+    "game": "Secret of Mana",
+    "stats": {
+      "base": { "hp": 184, "mp": 129, "str": 83, "con": 86, "int": 60, "spr": 61, "lck": 44 },
+      "max": { "hp": 1439, "mp": 220, "str": 633, "con": 639, "int": 534, "spr": 528, "lck": 96 }
+    }
+  },
+  {
+    "name": "Angela",
+    "title": "Rebelling Against Fate",
+    "rarity": 3,
+    "element": "Fire",
+    "weapon": "Staff",
+    "game": "Trials of Mana",
+    "stats": {
+      "base": { "hp": 149, "mp": 144, "str": 68, "con": 60, "int": 90, "spr": 86, "lck": 38 },
+      "max": { "hp": 1285, "mp": 237, "str": 567, "con": 525, "int": 666, "spr": 639, "lck": 89 }
+    }
+  },
+  {
+    "name": "Kevin",
+    "title": "To Save a Friend",
+    "rarity": 3,
+    "element": "Earth",
+    "weapon": "Glove",
+    "game": "Trials of Mana",
+    "stats": {
+      "base": { "hp": 193, "mp": 129, "str": 94, "con": 76, "int": 65, "spr": 64, "lck": 37 },
+      "max": { "hp": 1477, "mp": 220, "str": 683, "con": 592, "int": 557, "spr": 541, "lck": 89 }
+    }
+  },
+  {
+    "name": "Hawkeye",
+    "title": "Sentiments for a Friend",
+    "rarity": 3,
+    "element": "Dark",
+    "weapon": "Knife",
+    "game": "Trials of Mana",
+    "stats": {
+      "base": { "hp": 177, "mp": 129, "str": 81, "con": 73, "int": 68, "spr": 68, "lck": 43 },
+      "max": { "hp": 1408, "mp": 220, "str": 626, "con": 582, "int": 570, "spr": 560, "lck": 95 }
+    }
+  },
+  {
+    "name": "Sumo",
+    "title": "Swordsman Starting Out",
+    "rarity": 3,
+    "element": "Water",
+    "weapon": "Polearm",
+    "game": "Adventures of Mana",
+    "stats": {
+      "base": { "hp": 195, "mp": 131, "str": 80, "con": 79, "int": 73, "spr": 71, "lck": 33 },
+      "max": { "hp": 1486, "mp": 222, "str": 620, "con": 606, "int": 591, "spr": 572, "lck": 84 }
+    }
+  },
+  {
+    "name": "Dark Lord",
+    "title": "Knight in Brutal Armor",
+    "rarity": 3,
+    "element": "Dark",
+    "weapon": "Sword",
+    "game": "Adventures of Mana",
+    "stats": {
+      "base": { "hp": 198, "mp": 116, "str": 85, "con": 76, "int": 73, "spr": 71, "lck": 35 },
+      "max": { "hp": 1500, "mp": 205, "str": 643, "con": 595, "int": 590, "spr": 573, "lck": 86 }
+    }
+  },
+  {
+    "name": "Duran",
+    "title": "Young Soldier of Valsena",
+    "rarity": 3,
+    "element": "Fire",
+    "weapon": "Sword",
+    "game": "Trials of Mana",
+    "stats": {
+      "base": { "hp": 210, "mp": 114, "str": 90, "con": 86, "int": 60, "spr": 61, "lck": 37 },
+      "max": { "hp": 1554, "mp": 204, "str": 666, "con": 639, "int": 534, "spr": 528, "lck": 88 }
+    }
+  },
+  {
+    "name": "Sierra",
+    "title": "Proud Dragoon",
+    "rarity": 3,
+    "element": "Light",
+    "weapon": "Knife",
+    "game": "Legend of Mana",
+    "stats": {
+      "base": { "hp": 165, "mp": 155, "str": 81, "con": 65, "int": 77, "spr": 66, "lck": 40 },
+      "max": { "hp": 1358, "mp": 249, "str": 627, "con": 544, "int": 611, "spr": 552, "lck": 92 }
+    }
+  },
+  {
+    "name": "Riesz",
+    "title": "Search for a Brother",
+    "rarity": 3,
+    "element": "Water",
+    "weapon": "Polearm",
+    "game": "Trials of Mana",
+    "stats": {
+      "base": { "hp": 172, "mp": 142, "str": 83, "con": 68, "int": 80, "spr": 68, "lck": 37 },
+      "max": { "hp": 1385, "mp": 234, "str": 633, "con": 557, "int": 623, "spr": 557, "lck": 89 }
+    }
+  },
+  {
+    "name": "Honeycomb",
+    "title": "",
+    "rarity": 2,
+    "element": "Moon",
+    "weapon": "Staff",
+    "game": "Echoes of Mana",
+    "stats": {
+      "base": { "hp": 141, "mp": 142, "str": 68, "con": 58, "int": 83, "spr": 72, "lck": 26 },
+      "max": { "hp": 1179, "mp": 228, "str": 551, "con": 484, "int": 619, "spr": 546, "lck": 70 }
+    }
+  }
+]

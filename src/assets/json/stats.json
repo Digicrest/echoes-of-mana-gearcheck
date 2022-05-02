@@ -1,0 +1,30 @@
+{ 
+    "HP": {
+        "name": "HP",
+        "effect": "Max Health"
+    },
+    "MP": {
+        "name": "MP",
+        "effect": "Max Mana"
+    },
+    "CON": {
+        "name": "CON",
+        "effect": "Increases Physical Resistance"
+    },
+    "SPR": {
+        "name": "SPR",
+        "effect": "Increases Magical Resistance"
+    },
+    "INT": {
+        "name": "INT",
+        "effect": "Increases Magical Damage"
+    },
+    "STR": {
+        "name": "STR",
+        "effect": "Increases Physical Damage"
+    },
+    "LCK": {
+        "name": "LCK",
+        "effect": "Increases Critical Chance"
+    }
+}

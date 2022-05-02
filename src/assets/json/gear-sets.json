@@ -1,0 +1,24 @@
+{ 
+    "Valsena": { 
+        "name": "Valsena",
+        "type": "Main",
+        "bonus": { 
+            "stat": "STR", 
+            "amount": 20, 
+            "type": "Percentage",
+            "pieces_required": 3,
+            "applies_to": "Self"
+        }
+    },
+    "Maple": { 
+        "name": "Maple",
+        "type": "Accessory",
+        "bonus": { 
+            "stat": "INT", 
+            "amount": 18,
+            "type": "Percentage",
+            "pieces_required": 3,
+            "applies_to": "Self"
+        }
+    }
+}

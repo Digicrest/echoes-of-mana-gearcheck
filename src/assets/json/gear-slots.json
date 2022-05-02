@@ -1,0 +1,12 @@
+{ 
+    "Main": {
+        "HELM": "Helmet",
+        "CHEST": "Chest",
+        "GLOVES": "Gloves"
+    },
+    "Accessory": {
+        "NECKLACE": "Necklace",
+        "RING": "Ring",
+        "BOOTS": "Boots"
+    }
+}

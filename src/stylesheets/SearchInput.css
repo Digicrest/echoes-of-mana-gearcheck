@@ -1,0 +1,8 @@
+.MuiInput-root.search input {
+    padding: .5em;
+    transition: all .3s ease-in-out;
+    padding-inline-start: 2ch;
+}
+.MuiInput-root.search input:focus {
+    padding: .5em 2em;
+}

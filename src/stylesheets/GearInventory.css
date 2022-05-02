@@ -1,0 +1,12 @@
+.inventory-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.inventory-container .gear-inventory {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 24%);
+    gap: 2rem 1.3333%;
+    justify-content: center;
+}

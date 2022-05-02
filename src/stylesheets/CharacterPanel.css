@@ -1,0 +1,87 @@
+.character-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-size: .6em;
+    background-color: var(--white-70);
+    backdrop-filter: var(--blur);
+    border-radius: var(--border-radius);
+}
+
+
+.portrait-container {
+    width: 100%;
+    --border-size: 2px;
+    box-shadow: 
+        0 0 0 var(--border-size) #00000005,
+        0 calc(var(--border-size) * 2) calc(var(--border-size) * 4) calc(var(--border-size) * 3) #00000005;
+    border-radius: var(--border-radius);
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    padding: 2rem;
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+    background-color: #FFF;
+}
+.portrait-container img {
+    max-width: 100%;
+    height: max(200px, 30vh) ;
+}
+.stats-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--border-radius);
+    background-color: #fff;
+}
+.stats-container .character-name {
+    padding: .25em;
+    background-color: #000000;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: white;
+    border-bottom: 1px solid #00000015;
+}
+.stats-container .stats {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+    padding: 1em;
+}
+.stats-container .stat {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+.stats-container .stat > .MuiSlider-root {
+    flex: 2;
+}
+.stats-container .stat > div {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.silhouette {
+    filter: brightness(0);
+}
+
+.character-level-select > p {
+    font-size: .5em;
+    opacity: .5;
+}
+.character-level-select {
+    width: 90%;
+    margin-bottom: 1rem;
+}
+.character-level-select .MuiInput-root {
+    margin: 1em 0;
+    text-align: center;
+}
+.character-level-select input {
+    padding-inline-start: 1em;
+    text-align: center;
+}

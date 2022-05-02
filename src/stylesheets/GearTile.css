@@ -1,0 +1,104 @@
+.gear-tile {
+    --gear-0: #392711;
+    --gear-1: #57462d;
+    --gear-2: #69563d;
+    --gear-3: #ccbca6;
+    --gear-4: #e9d8be;
+}
+.gear-tile {
+    aspect-ratio: 1;
+    font-size: .5em;
+    display: flex;
+    flex-direction: column;
+    /* gap: .5rem; */
+    text-align: left;
+    border-radius: var(--border-radius);
+    background-color: var(--gear-3);
+}
+.gear-tile .gear {
+    border-radius: var(--border-radius);
+    flex: 1;
+}
+
+.gear-tile .name-container {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .35em;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--gear-4);
+    color: var(--gear-1);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+.gear-tile .name-container img {
+    width: 2ch;
+    height: 2ch;
+    /* filter: invert(95%) sepia(100%) saturate(0%) hue-rotate(205deg) brightness(105%) contrast(100%); */
+}
+
+
+.gear-tile .stat-group {
+    font-size: .8em;
+}
+.gear-tile .stat-group .title {
+    background-color: var(--gear-0);
+    color: #e9d8be90;
+    font-weight: 500;
+    padding: .35em;
+    padding-inline-start: .75em;
+    letter-spacing: .03em;
+}
+.gear-tile .stat-group .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 49%);
+    gap: .25rem 2%;
+    padding: .5em;
+}
+.gear-tile .stat {
+    border-radius: 3px;
+    padding: 4px;
+    padding-inline-start: 1em;
+    color: #00000090;
+}
+.gear-tile .stat,
+.gear-tile .set-bonus {
+    background-color: var(--gear-4);
+}
+.gear-tile .gear {
+    position: relative;
+}
+.gear-tile .gear .rarity {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gear-0);
+    padding: .3em;
+    border-radius: var(--border-radius);
+    position: absolute;
+    bottom: -13px;
+    left: 25%;
+}
+.MuiRating-iconFilled svg {
+    color: var(--gear-3);
+}
+.MuiRating-iconEmpty svg {
+    color: var(--gear-2);
+}
+.gear-tile .set-bonus {
+    font-size: .6em;
+    text-align: center;
+    color: green;
+    margin-top: 1rem;
+}
+
+.gear-score {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+    opacity: .4;
+    color: var(--gear-1);
+}
