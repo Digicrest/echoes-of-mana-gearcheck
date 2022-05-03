@@ -20,5 +20,16 @@
             "pieces_required": 3,
             "applies_to": "Self"
         }
+    },
+    "Ivory": { 
+        "name": "Ivory",
+        "type": "Accessory",
+        "bonus": { 
+            "stat": "SPR", 
+            "amount": 20,
+            "type": "Percentage",
+            "pieces_required": 3,
+            "applies_to": "Self"
+        }
     }
 }

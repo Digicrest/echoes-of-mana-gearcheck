@@ -42,6 +42,32 @@ const inventory = [
       { stat: stats.HP, amount: 108, type: stat_types.FLAT },
       { stat: stats.LCK, amount: 20, type: stat_types.FLAT }
     ]
+  },
+  {
+    set: gear_sets.Ivory,
+    slot: gear_slots.Accessory.NECKLACE,
+    rarity: 5,
+    level: 16,
+    stats: [
+      { stat: stats.STR, amount: 8, type: stat_types.PERCENT },
+      { stat: stats.SPR, amount: 3.8, type: stat_types.PERCENT },
+      { stat: stats.INT, amount: 4, type: stat_types.PERCENT },
+      { stat: stats.MP, amount: 17, type: stat_types.FLAT },
+      { stat: stats.HP, amount: 151, type: stat_types.FLAT },
+    ]
+  },
+  {
+    set: gear_sets.Ivory,
+    slot: gear_slots.Accessory.RING,
+    rarity: 5,
+    level: 16,
+    stats: [
+      { stat: stats.HP, amount: 219, type: stat_types.FLAT },
+      { stat: stats.CON, amount: 16.4, type: stat_types.PERCENT },
+      { stat: stats.CON, amount: 20, type: stat_types.FLAT },
+      { stat: stats.STR, amount: 27, type: stat_types.FLAT },
+      { stat: stats.HP, amount: 3.4, type: stat_types.PERCENT },
+    ]
   }
 ];
 
