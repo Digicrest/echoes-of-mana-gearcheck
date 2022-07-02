@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 import stat_types from '../assets/json/stat-types.json';
 import FeatherIcon from '../assets/images/feather-icon.png';
 
-export default function GearTile({ gear }) {
+export default function GearTile({ gear, toggleEquipped }) {
     useEffect(() => {
         if (!gear) { return; }
     }, [])
@@ -14,7 +14,7 @@ export default function GearTile({ gear }) {
     };
 
     return (
-        <div className='gear-tile' data-set-bonus={gear.set.bonus.stat}>
+        <div className='gear-tile' data-set-bonus={gear.set.bonus.stat} onClick={toggleEquipped}>
             <div className='name-container'>
                 <img src={FeatherIcon} />
                 <p className='name'>

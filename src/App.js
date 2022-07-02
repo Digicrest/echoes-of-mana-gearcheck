@@ -144,6 +144,10 @@ function App() {
     setInventoryOpen(!inventoryOpen)
   }
 
+  function toggleEquipped(x) {
+    console.log('toggleEquipped: ', x)
+  }
+
   function updateGearScores() {
     if (!character) {
       return;
@@ -157,7 +161,7 @@ function App() {
         let statValue = stat.amount;
 
         if (stat.type === "Percentage") {
-            statValue = appliedStats[statKey] / 100 * stat.amount;
+          statValue = appliedStats[statKey] / 100 * stat.amount;
         };
         // console.log(`[${statKey.toUpperCase()}](+${stat.amount}${stat.type !== 'Flat' ? '%' : ''}) has a weighted value of (${(statValue * statWeight)}) with weight: ${statWeight}`);
         return acc + (statValue * statWeight);
@@ -198,6 +202,7 @@ function App() {
                   inventory={weightedInventory.sort((item1, item2) => {
                     return item1.score < item2.score ? 1 : -1;
                   })} 
+                  toggleEquipped={toggleEquipped}
                   onSearchTermChanged={e => {
                     setInventorySearchTerm(e.target.value.toLowerCase().trim());
                   }} 
